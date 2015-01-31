@@ -1,0 +1,26 @@
+{
+  "name": "cargo-ship",
+  "version": "0.0.0",
+  "description": "Parallel execution of tasks with a shared namespace",
+  "keywords": [
+    "parallel",
+    "tasks",
+    "shared"
+  ],
+  "author": "Gabriel Llamas <gagle@outlook.com>",
+  "repository": "git://github.com/gagle/node-cargo-ship.git",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "devDependencies": {
+    "code": "^1.3.0",
+    "lab": "^5.2.1",
+    "sinon": "^1.12.2"
+  },
+  "scripts": {
+    "test": "node node_modules/lab/bin/lab -t 100",
+    "test-lcov": "node node_modules/lab/bin/lab -t 100 -r lcov"
+  },
+  "license": "MIT",
+  "main": "lib"
+}
